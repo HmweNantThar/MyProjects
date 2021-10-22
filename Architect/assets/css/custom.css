@@ -1,0 +1,788 @@
+html{
+	scroll-behavior: smooth;
+}
+.thewholeBg{
+	background-color: #F0F0F0;
+	padding: 0px !important;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			Navigation Bar and first section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.homeBackground{
+	background-image: url(../images/homeBgImg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 350px;
+}
+.nav-bar,.viewpj-nav-bar{
+	display: flex;
+	position: fixed;
+	width: 100vw;
+	z-index: 2;
+	transition: all ease 0.5s;
+}
+.small-navbar{
+	display: none;
+}
+.navbar{
+	transition: background ease 0.5s;
+}
+.logo{
+	flex: 5;
+}
+.navbar-toggler{
+	border:2px solid #F0F0F0 !important;
+}
+.menubar{
+	width: 30px;
+	height: 3px;
+	background-color: #F0F0F0;
+}
+.menubar:nth-child(1){
+	margin-top: 5px;
+}
+.menubar:nth-child(3){
+	margin-bottom: 5px;
+}
+.menubar:nth-child(2){
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.offcanvas{
+	background-color: #F0F0F0 !important;
+}
+.small-nav-item{
+	font-family: Century Gothic;
+	font-size: 14px;
+
+}
+.nav-link{
+	color:#4A4A4A !important ;
+	display: inline-block !important;
+}
+.nav-link:hover{
+	text-decoration: underline !important;
+}
+.nav-item{
+	flex: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: Century Gothic;
+	font-size: 14px;
+}
+.nav-item a{
+	text-decoration: none;
+	color: #F0F0F0;
+}
+.nav-item a:hover{
+	text-decoration: underline;
+	color: #F0F0F0;
+}
+.title{
+	color: #F0F0F0;
+	text-align: center;
+	font-size: 64px;
+	padding-top: 350px;
+	font-family: Century Gothic;
+}
+.exploreBox{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #F0F0F0;
+	text-align: center;
+	font-size: 14px;
+	font-family: Century Gothic;
+	margin-left: auto;
+	margin-right: auto;
+}
+.explorelink{
+	color: #F0F0F0;
+	text-decoration: none;
+}
+.exploreBox:hover{
+	border: 1px solid #4A4A4A;
+
+}
+.explorelink:hover{
+	color: #4A4A4A;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+		End of Navigation Bar and first section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+				Design Section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+#design-section{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 130px !important;
+	transition: all ease 1s;
+}
+.design-section-one{
+	display: flex;
+}
+.design-section-one-item{
+	flex: 1;
+}
+.designImageOne{
+	background-image: url(../images/pjImg7.png);
+	background-size: 96% 320px;
+	background-repeat: no-repeat;
+	padding-top: 3%;
+}
+.designImageOne-border{
+	width: 96%;
+	height: 320px;
+	border: 1px solid #4A4A4A;
+	margin-left: 3%;
+}
+.design-title-one{
+	font-size: 18px;
+	margin-top: 190px;
+	font-family: Century Gothic;
+	margin-left: 20px;
+}
+.design-para-one{
+	font-size: 14px;
+	margin-top: 40px;
+	font-family: Century Gothic;
+	margin-right: 130px;
+	margin-left: 20px;
+}
+/*end of design-box-one*/
+
+.design-section-two{
+	display: flex;
+}
+.design-section-two-item{
+	flex: 1;
+}
+.designImageTwo{
+	background-image: url(../images/ServiceImg2.png);
+	background-size: 97% 320px;
+	background-repeat: no-repeat;
+	margin-top: 130px;
+	padding-top: 3%;
+	margin-left: 3%;
+}
+.designImageTwo-border{
+	width:97%;
+	height: 320px;
+	border: 1px solid #4A4A4A;
+	margin-left: -3%;
+}
+.design-title-two{
+	font-size: 18px;
+	margin-top: 300px;
+	font-family: Century Gothic;
+	margin-left: 130px;
+}
+.design-para-two{
+	font-size: 14px;
+	margin-top: 40px;
+	font-family: Century Gothic;
+	margin-left: 130px;
+	margin-right: 20px;
+}
+/*end of design-box-two*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+				End of Design Section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+					Project Section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.projectsection{
+	transition: all ease 1s;
+}
+.projectTitle{
+	font-size: 48px;
+	font-family: Century Gothic;
+	margin-top: 130px;
+	color: #4A4A4A;
+	text-align: center;
+}
+.fa-arrow-down{
+	color: gray;
+	margin-bottom:100px;
+}
+.project-pic-one{
+	background-image: url(../images/pjImg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+}
+.overlay{
+	width: 100%;
+	height: 280px;
+	transition: all ease 1s;
+}
+.project-pic-one:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.projectTitle-text{
+	position: relative;
+	top: -140px;
+	text-align: center;
+	font-size: 18px;
+	color: transparent;
+	transition: all ease 1s;
+	font-family: Century Gothic;
+}
+.project-pic-one:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.first-project-photoBox{
+	display: flex;
+}
+.project-photoBox-item{
+	flex: 1;
+}
+.project-photoBox-item a{
+	text-decoration: none;
+}
+.project-pic-two{
+	background-image: url(../images/pjImg1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+}
+.project-pic-two:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-two:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.project-pic-three{
+	background-image: url(../images/pjImg2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+}
+.project-pic-three:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-three:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.project-pic-four{
+	background-image: url(../images/pjImg3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.project-pic-four:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-four:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.second-project-photoBox{
+	display: flex;
+	margin-top: 20px;
+}
+.project-pic-five{
+	background-image: url(../images/pjImg4.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	overflow: hidden;
+}
+.project-pic-six{
+	background-image: url(../images/pjImg5.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.project-pic-seven{
+	background-image: url(../images/pjImg6.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.project-pic-eight{
+	background-image: url(../images/pjImg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.project-pic-five:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-five:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.project-pic-six:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-six:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.project-pic-seven:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-seven:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+.project-pic-eight:hover .overlay{
+	background-color: black;
+	opacity: 0.4;
+}
+.project-pic-eight:hover .projectTitle-text{
+	color: #F0F0F0;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+				End of Project Section in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+		view all projects and about contact in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.allprojectLink{
+	text-align: center;
+	font-family: Century Gothic;
+	padding-top: 130px;
+}
+.allprojectLink a{
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.allprojectLink a:hover{
+	color: #4A4A4A;
+}
+.lastSection-partone{
+	display: flex;
+	margin-top: 130px;
+	padding-left: 130px;
+	padding-right: 130px;
+	height: 110px;
+}
+.lastSection-partone-item,.lastSection-parttwo-item{
+	flex: 1;
+}
+.aboutusbox{
+	border-left: 1px solid #4A4A4A;
+	padding-left: 10px;
+}
+.aboutustitle,.aboutustext{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+}
+.subdivision{
+	display: flex;
+}
+.subdivision-item{
+	flex: 1;
+}
+.subdivision-item:nth-child(2){
+	width: 100%;
+	border-top:1px solid #4A4A4A;
+}
+.lastSection-parttwo{
+	display: flex;
+	padding-left: 130px;
+	padding-right: 130px;
+	height: 110px;
+}
+.contactusbox{
+	border-right: 1px solid #4A4A4A;
+	padding-right: 10px;
+}
+.subdivision-two{
+	display: flex;
+}
+.subdivision-two-item{
+	flex: 1;
+}
+.subdivision-two-item:nth-child(1){
+	width: 100%;
+	border-bottom:1px solid #4A4A4A;
+	height: 110px;
+}
+.contactustitle,.contactustext{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	text-align: right;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+	End of view all projects and about contact in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			social media and footer in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.socialMedia{
+	display: flex;
+	margin-top: 130px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.socialMediaitem{
+	flex: 1;
+	text-align: center;
+}
+.smalltext{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+.facebook,.instagram,.pinterest{
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.facebook a,.instagram a,.pinterest a{
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.facebook a:hover,.instagram a:hover,.pinterest a:hover{
+	color: #4A4A4A;
+}
+.top{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #4A4A4A;
+	margin-left: auto;
+	margin-right: 20px;
+}
+.footer{
+	background-color: #4A4A4A;
+	margin-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+.footertext{
+	font-family: Century Gothic;
+	color: #F0F0F0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bolder;
+}
+.lastSectionAndfooter{
+	transition: all ease 1s;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+		End of social media and footer in home file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			yearly projects in viewpj file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.project-name{
+	padding-top: 130px;
+	margin-left: 130px;
+}
+.project-name p{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 48px;
+	border-left: 1px solid #4A4A4A;
+	padding: 10px;
+}
+.yearly-pj{
+	margin-left: 130px;
+	margin-top: 40px;
+	margin-right: 130px;
+}
+.year{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 18px;
+}
+.pj-firstrow-box{
+	display: flex;
+}
+.pj-box-items{
+	flex: 1;
+}
+.pj-box-items:nth-child(2){
+	margin-left: 40px;
+}
+.pj-box-items:nth-child(3){
+	margin-left: 40px;
+}
+.pj-box-items:nth-child(4){
+	margin-left: 40px;
+}
+.pj-secondrow-box{
+	display: flex;
+	margin-top: 40px;
+}
+.pj-box-itemsphoto{
+	width: 100%;
+	height: auto;
+}
+.twenty-pj{
+	transition: all ease 1s;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			End of yearly projects in viewpj file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			 projects detail in pjdetail file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.pjdetail-title{
+	padding-top: 130px;
+	margin-left: 130px;
+}
+.pjdetail-title-text{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 48px;
+}
+.date{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 14px;
+	margin-top: -25px;
+}
+.pjdetail-title-border{
+	border-left: 1px solid #4A4A4A;
+	padding: 10px;
+}
+.pjdetail-photobox{
+	margin: 20px 130px;
+}
+.pjdetail-photo{
+	width: 100%;
+	height: auto;
+}
+.pjdetail-textbox{
+	margin-left: 130px;
+	margin-right: 130px;
+	border-left: 1px solid #4A4A4A;
+	padding-left: 10px;
+	transition: all ease 1s;
+}
+.pjdetail-text{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			End of  projects detail in pjdetail file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			previous and next button in pjdetail file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+.pjdetail-buttonbox{
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 130px;
+	display: flex;
+	justify-content: center;
+	transition: all ease 1s;
+}
+.prev-buttonlink,.next-buttonlink{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 14px;
+	text-decoration: none;
+}
+.prev-buttonlink:hover,.next-buttonlink:hover{
+	color: #4A4A4A;
+}
+.prev-buttontextlink,.next-buttontextlink{
+	font-family: Century Gothic;
+	color: #4A4A4A;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.prev-buttontextlink:hover,.next-buttontextlink:hover{
+	color: #4A4A4A;
+}
+.prev-button,.prev-buttontext{
+	text-align: right;
+}
+.pjdetail-button-item:nth-child(1){
+	border-right: 1px solid #4A4A4A;
+	padding-right: 10px;
+}
+.pjdetail-button-item:nth-child(2){
+	padding-left: 10px;
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+			End of  previous and next button in pjdetail file
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+				Responsive
+----------------------------------------------------------------
+---------------------------------------------------------------*/
+/*desktops view*/
+@media (min-width: 1281px){
+	div{
+		font-size: 16px;
+	}
+}
+/*Laptop and  Desktop*/
+@media (min-width: 1025px) and (max-width: 1280px){
+	div{
+		font-size: 16px;
+	}
+	/*view all projects and about contact in home file*/
+	.lastSection-partone,.lastSection-parttwo{
+		height: 130px;
+	}
+	.subdivision-two-item:nth-child(1){
+		height: 130px;
+	}
+	/*end of view all projects and about contact in home file*/
+}
+/*Tablets and Ipads(portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+	div{
+		font-size: 15px;
+	}
+	/*view all projects and about contact in home file*/
+	.lastSection-partone,.lastSection-parttwo{
+		height: 150px;
+	}
+	.subdivision-two-item:nth-child(1){
+		height: 150px;
+	}
+	/*end of view all projects and about contact in home file*/
+
+	/*Project Section in home file*/
+	.overlay{
+		height: 240px;
+	}
+	.project-photoBox-item{
+		background-size: 100% 240px;
+	}
+	/*End of Project Section in home file*/
+
+	/*Design Section in home file*/
+	.design-title-one{
+		margin-top: 150px;
+	}
+	.design-title-two{
+		margin-top: 270px;
+	}
+	/*End of Design Section in home file*/
+
+	/*navbar*/
+	.nav-bar,.viewpj-nav-bar{
+		display: none;
+	}
+	.small-navbar{
+		display: block;
+	}
+	/*end of navbar*/
+}
+/*Tablets and Ipads(Landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	div{
+		font-size: 15px;
+	}
+	/*view all projects and about contact in home file*/
+	.lastSection-partone,.lastSection-parttwo{
+		height: 150px;
+	}
+	.subdivision-two-item:nth-child(1){
+		height: 150px;
+	}
+	/*end of view all projects and about contact in home file*/
+
+	/*Project Section in home file*/
+	.overlay{
+		height: 240px;
+	}
+	.project-photoBox-item{
+		background-size: 100% 240px;
+	}
+	/*End of Project Section in home file*/
+
+	/*Design Section in home file*/
+	.design-title-one{
+		margin-top: 150px;
+	}
+	.design-title-two{
+		margin-top: 270px;
+	}
+	/*End of Design Section in home file*/
+
+	/*navbar*/
+	.nav-bar,.viewpj-nav-bar{
+		display: none;
+	}
+	.small-navbar{
+		display: block;
+	}
+	/*end of navbar*/
+}
+/*Tablets and mobile*/
+@media (min-width: 481px) and (max-width: 767px){
+	div{
+		font-size: 14px;
+	}
+	/*navbar*/
+	.nav-bar,.viewpj-nav-bar{
+		display: none;
+	}
+	.small-navbar{
+		display: block;
+	}
+	/*navbar*/
+}
+/*Smartphone*/
+@media (min-width: 320px) and (max-width: 480px){
+	div{
+		font-size: 14px;
+	}
+}
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+				End of Responsive
+----------------------------------------------------------------
+---------------------------------------------------------------*/
